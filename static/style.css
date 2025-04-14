@@ -1,0 +1,99 @@
+body {
+    background-color: #f5fdf6;
+    font-family: 'Helvetica Neue', Arial;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #d5ecd4;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2e674c;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #3d8f67;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #f5fdf6;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4e9b6f;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+p, p strong{
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #000000;
+}
+
+
+ul {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 30px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #000000;
+}
+
+ul li::marker {
+    color: #2e674c;
+}
+
+
+.table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.table th {
+    background-color: #d5ecd4;
+    color: #2e674c;
+    padding: 12px;
+    border: 1px solid #c8e6c9;
+}
+
+.table td {
+    padding: 12px;
+    border: 1px solid #e0f2e9;
+    text-align: center;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #f0fdf4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.table tr:hover {
+    background-color: #e6fbe6;
+    transition: 0.2s ease-in-out;
+}
